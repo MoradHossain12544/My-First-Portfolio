@@ -44,7 +44,7 @@
   header{
     background-color: #FFF8F3;
     background: url(./images/developer.png), url(./images/header_bg.png)#FFF8F3;
-    background-position:top left,bottom right;
+    background-position:23px 38px,bottom right;
     background-repeat:no-repeat;
     padding-top: 50px;
 
@@ -145,24 +145,24 @@ nav .menu a{
         color: #757575;
   }
   
-
-#skils .skils-container {
+#skills{
+    padding: 130px;
+}
+.skills-container{
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
-    text-align: center;
-    padding: 131px 157px;
+
+
 }
-#skils .card-box {
+.card-box{
     display: flex;
     gap: 24px;
 }
-
 .card-box .skill-card{
     padding: 30px;
-    /* border: 1px solid red; */
-    box-shadow: 0 6px 50px 0 #00000030;
-    max-width: 247px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #00000063;
 
 }
 .skill-card img{
@@ -176,10 +176,11 @@ nav .menu a{
 }
 .skill-card p{
     font-size: 16px;
-        line-height: 28px;
-        color: #757575;
+    color: #757575;
+    line-height:28px;
 
 }
+
 #resume .resume-container{
      width: 71%;
     max-width: 1140px;
@@ -222,6 +223,46 @@ nav .menu a{
     color: #757575;
 
 
+}
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .footer-container{ 
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+
+
+}
+.footer-container .social{
+    max-width: 562px;
+}
+.footer-container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-container .social p{
+    color: #474747;
+    line-height: 16px;
+    margin-bottom: 20px
+
+}
+.footer-container .icons a{
+    margin-right: 24px;
+}
+.footer-container .form input[type="text"],.footer-container .form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: none;
+    color: #757575;
 }
 
 
